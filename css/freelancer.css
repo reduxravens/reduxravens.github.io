@@ -2262,7 +2262,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
+  background-color: #df2929;
   border-color: #C62525;
 }
 
@@ -2280,7 +2280,7 @@ fieldset:disabled a.btn {
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #C62525;
-  border-color: #12846e;
+  border-color: #df2929;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
