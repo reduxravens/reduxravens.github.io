@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>Redux Ravens</title>
+        <description>Team of Game Developers, artists, and more.</description>
+        <link>https://www.reduxravens.com</link>
+        <item>
+            <title>Miyoki & Samoki</title>
+            <description>
+                Miyoki & Samoki has officially been rebooted and reloaded!
+                The game has been reprogrammed from start to finish, using a different engine.
+            </description>
+            <image>
+                <link>https://www.reduxravens.com</link>
+            </image>
+            <media:content url="https://www.reduxravens.com/img/news/carousel/miyoki.png" medium="image"/>
+
+            <guid>https://www.reduxravens.com</guid>
+            <pubDate>01/21/2020</pubDate>
+        </item>
+    </channel>
+    
+</rss>
