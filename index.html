@@ -22,6 +22,7 @@
 
   <!-- Theme CSS -->
   <link href="css/freelancer.css" rel="stylesheet">
+  <link href="css/blog-home.css" rel="stylesheet">
 
 </head>
 
@@ -38,6 +39,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#news">News</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Games</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
@@ -47,6 +51,8 @@
       </div>
     </div>
   </nav>
+
+  
 
   <!-- Masthead -->
   <header class="masthead bg-primary text-white text-center">
@@ -72,6 +78,42 @@
 
     </div>
   </header>
+
+  <!-- About Section -->
+  <section class="page-section bg-secondary text-white mb-0" id="news">
+    <div class="container">
+  
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">News</h2>
+  
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+  
+      <!-- Blog Post -->
+      <div class="card mb-4">
+        <img class="card-img-top" src="img/news/carousel/miyoki.png" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title text-dark">M&S - Rebooted</h2>
+          <p class="card-text text-dark">
+            Miyoki & Samoki has officially been rebooted and reloaded!
+            The game has been reprogrammed from start to finish, using a different engine.
+            <br>
+            You can read more here:
+          </p>
+          <a data-toggle="modal" data-target="#portfolioModal1" class="btn btn-primary">Go to Game →</a>
+        </div>
+        <div class="card-footer text-muted">
+          Posted on January 21, 2020 by
+          <a href="#">parashock</a>
+        </div>
+      </div>
+    </section>
 
   <!-- Portfolio Section -->
   <section class="page-section portfolio" id="portfolio">
